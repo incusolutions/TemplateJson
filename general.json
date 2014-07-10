@@ -252,8 +252,14 @@
                              {"cont":"<td>EReconocer los aspectos más relevantes a tener en cuenta para diseñar un estudio de cohortes aplicado al tema del cáncer.</td>"},
                              {"cont":"<td>El estudiante estará empoderado de las herramientas metodológicas necesarias para llevar a cabo un estudio de cohortes sobre cáncer.</td> "},
                              {"cont":"<td>Permitirá al estudiante diseñar y ejecutar un estudio de cohortes sobre cáncer.</td>"}
-                        ]
+                        ],
+
+                        "subtitulo1":"TEXTO BASE",
+                        "p1":"Texto base Unidad 2   <a href='unidad2.pdf' target='blank'>Descargar</a>",
+                        "subtitulo2":"CONTENIDO TEMATICO",
+                        "p2":"Contenido Temático <a href='u2_epi_cancer/story_html5.html' target='blank'>Ver contenido</a>"
                     }
+
                 ]
             },
 
