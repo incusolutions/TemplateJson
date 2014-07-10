@@ -58,21 +58,33 @@
                 ]
             },
             {
-                "id": "pagina2",
+                "id": "unidad1",
                 "nombre": "unidad1",
                 "tipo": "scroll",
                 "links": [
                     {
-                        "titulo": "unidad2",
-                        "url": "index.html"
+                        "titulo": "presentación",
+                        "url": "#"
                     },
-                    {
-                        "titulo": "unidad2",
-                        "url": "index.html"
+                     {
+                        "titulo": "objetivos",
+                        "url": "#"
                     },
-                    {
-                        "titulo": "unidad2",
-                        "url": "index.html"
+                     {
+                        "titulo": "actividad 1",
+                        "url": "#"
+                    },
+                     {
+                        "titulo": "actividad 2",
+                        "url": "#"
+                    },
+                     {
+                        "titulo": "actividad 3",
+                        "url": "#"
+                    },
+                     {
+                        "titulo": "actividad 4",
+                        "url": "#"
                     }
                 ]
             }
@@ -85,7 +97,7 @@
                 "ruta": "images/bannergeneralidades.jpg"
             },
             {
-                "id": "pagina2",
+                "id": "unidad1",
                 "ruta": "images/baneru1.jpg"
             }
         ]
@@ -201,7 +213,7 @@
             },
 
             {
-                "id":"pagina2",
+                "id":"unidad1",
                 "bloque": [
                     {
                         "vista": "parrafo",
