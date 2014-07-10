@@ -279,4 +279,45 @@
       </div>
     </div>
     <!--fin modulo-->
+    <div style="clear:both"></div>
+</script>
+
+<script id="objetivos" type="x-tmpl-mustache">
+<div class="moduloMid"> 
+      <!-- estructura para un titulo de modulo-->
+      <div class="titleHolder">
+        <div class="titleBg">
+          <h2>{{titulo}}</h2>
+        </div>
+      </div>
+      <!-- fin estructura titulo modulo -->
+      <div class="cajaModulo"> 
+    
+    <table width="100%" class="borde">
+                 <thead>
+                    <tr>
+                      <td >Objetivo</td>
+                      <td >¿Beneficio?</td>
+                      <td >¿Para qué?</td>
+                    </tr>
+                  </thead>
+                  <tbody> 
+                    <tr>
+                       {{#fila}} {{{cont}}} {{/fila}}
+                    </tr>
+                    <tr>
+                       {{#fila2}} {{{cont}}} {{/fila2}}
+                    </tr>
+                    <tr>     
+                       {{#fila3}} {{{cont}}} {{/fila3}}           
+                    </tr>
+                  </tbody>
+                
+              </table>
+
+           
+      </div>
+    </div>
+    <!--fin modulo-->
+    <div style="clear:both"></div>
 </script>
