@@ -1,0 +1,92 @@
+{
+    "Titulo": "Titulo del curso",
+    "year:": "2014",
+    "Modificacion": "hoy",
+    "grafico": {
+        "fondo": "images/fondo.jpg",
+        "menu": "#AFC0B7",
+        "baner": "images/baner-fondo.jpg",
+        "colores": {
+                "h1": "#000",
+                "h2": "#000",
+                "h3": "#000",
+                "h4": "#000",
+                "p": "#000",
+                "listas": "#000",
+                "tablas": "#000"
+         }
+        
+    },
+    "menu": {
+        "tipo": "scroll",
+        "color_link": "#000",
+        "shadow_link": "#000",
+        "hover_link": "#000",
+        "borde1_link": "#000",
+        "borde2_link": "#000"
+    },
+    "links": {
+        "paginas": [
+            {
+                "id": "pagina1",
+                "nombre": "unidad1",
+                "links": [
+                    {
+                        "titulo": "unidad1",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "unidad1",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "unidad1",
+                        "url": "index.html"
+                    }
+                ]
+            },
+            {
+                "id": "pagina2",
+                "nombre": "unidad1",
+                "links": [
+                    {
+                        "titulo": "unidad2",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "unidad2",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "unidad2",
+                        "url": "index.html"
+                    }
+                ]
+            }
+        ]
+    },
+    "baners": {
+        "items": [
+            {
+                "id": "pagina1",
+                "ruta": "images/baners/baner1-jpg"
+            },
+            {
+                "id": "pagina2",
+                "ruta": "images/baners/baner2-jpg"
+            }
+        ]
+    },
+    "bloques": {
+        "bloques_pagina": [
+            {
+                "tipo": "tipo2",
+                "contenido": "generalidades"
+            },
+            {
+                "tipo": "tipo2",
+                "contenido": "generalidades"
+            }
+        ]
+    }
+}

@@ -1,0 +1,179 @@
+  <script id="menu" type="x-tmpl-mustache">
+         <li><a href={{url}}>{{titulo}}</a> </li>
+  </script>
+
+  <script id="menu2" type="x-tmpl-mustache">
+         <li><a href="#">{{titulo}} </a> </li>
+  </script>
+
+
+
+   <script id="baner" type="x-tmpl-mustache">
+        <img src={{ruta}} > 
+   </script>
+
+
+
+   <script id="video" type="x-tmpl-mustache">
+        <div class="moduloMid"> 
+              <div class="titleHolder">
+                <div class="titleBg">
+                  <h2>{{titulo}}</h2>
+                </div>
+              </div>
+           
+              <div class="cajaModulo"> 
+                <div class="videoBg">
+                    <div class="videoWrapper">
+                      
+                          <video width={{contenido.width}} height={{contenido.height}}  id={{contenido.id}} controls >
+                              <source src={{contenido.sourcemp4}} type="video/mp4">
+                              <source src={{contenido.sourceogv}} type="video/ogv">
+                              <source src={{contenido.sourcewebm}} type="video/webm">
+                           </video>
+                    </div>
+                </div>
+                <hr />
+              <div>
+        </div>
+      </script>
+
+
+     <script id="parrafo" type="x-tmpl-mustache">
+     	 <div class="moduloMid"> 
+              <div class="titleHolder">
+                <div class="titleBg">
+                  <h2>{{titulo}}</h2>
+                </div>
+              </div>
+
+              <div class="cajaModulo"> 
+              	<p> {{contenido.contenido}} </p> 
+              </div>
+         </div>
+     </script>
+
+
+     <script id="titulo_img" type="x-tmpl-mustache">
+     	 <div class="moduloMid"> 
+              <div class="titleHolder">
+                <div class="titleBg">
+                  <h2>{{titulo}}</h2>
+                </div>
+              </div>
+
+              <div class="cajaModulo"> 
+                 <a href={{contenido.url_abrir}} target="_blank">
+		          <span class="zoom">
+		            <span class="zoomLayer"></span>
+		            <img src={{contenido.img}} class="sinFormato" />
+		          </span>
+		        </a>
+              </div>
+         </div>
+     </script>
+
+
+     <script id="lista1" type="x-tmpl-mustache">
+     	 <div class="moduloMid"> 
+              <div class="titleHolder">
+                <div class="titleBg">
+                  <h2>{{titulo}}</h2>
+                </div>
+              </div>
+
+              <div class="cajaModulo"> 
+              	<ol class="rounded-list">
+              		<p>{{contenido.p1}} </p>
+                  {{#listas}} <li>{{cont}}</li> {{/listas}}
+              	</ol>
+
+                <ol class="rounded-list">
+                  <p>{{contenido.p2}} </p>
+                  {{#listas2}} <li>{{cont}}</li> {{/listas2}}
+                </ol>
+              	
+              </div>
+         </div>
+     </script>
+
+
+     <script id="plan_trabajo" type="x-tmpl-mustache">
+       <div class="moduloMid"> 
+              <div class="titleHolder">
+                <div class="titleBg">
+                  <h2>{{titulo}}</h2>
+                </div>
+              </div>
+
+              <div class="cajaModulo"> 
+                      <table class="borde">
+                            <thead>
+                              <tr>
+                                <td >Unidad</td>
+                                <td >Semanas</td>
+                                <td >Actividades de   Aprendizaje</td>
+                                <td >Recursos de Apoyo</td>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                 {{#fila1}} <td>{{{cont}}}</td> {{/fila1}}
+                              </tr>
+
+                              <tr>
+                                  {{#fila2}} <td>{{{cont}}}</td> {{/fila2}}
+                              </tr>
+                            </tbody>
+                      </table>
+              </div>
+      </div>
+     </script>
+
+
+     <script id="evaluacion" type="x-tmpl-mustache">
+       <div class="moduloMid"> 
+              <div class="titleHolder">
+                <div class="titleBg">
+                  <h2>{{titulo}}</h2>
+                </div>
+              </div>
+
+              <div class="cajaModulo"> 
+                <p> {{{contenido.p1}}} </p> 
+
+                <ul>
+                  {{#lista}} <li>{{{cont}}}</li> {{/lista}}
+                </ul>
+
+                <p>{{{contenido.p2}}}</p>
+
+              </div>
+         </div>
+     </script>
+
+
+
+<script id="tabla_evalu" type="x-tmpl-mustache">
+ <table class="borde">
+          <thead>
+          <tr>
+            <td  >UNIDAD</td>
+            <td  >ACTIVIDAD</td>
+            <td  >PORCENTAJE</td>
+          </tr>
+          </thead>
+          <tbody>
+               <tr> {{#fila}} {{{cont}}} {{/fila}} </tr>
+               <tr> {{#fila2}} {{{cont}}} {{/fila2}} </tr>
+               <tr> {{#fila3}} {{{cont}}} {{/fila3}} </tr>
+
+          </tbody>
+         <tfoot>
+          <tr>
+            <td  colspan="2" style="text-align:center;">TOTAL</td>
+            <td  >100%</td>
+          </tr>
+          </tfoot>
+        </table>
+</script>

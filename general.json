@@ -1,0 +1,222 @@
+{
+    "Titulo": "Titulo del curso",
+    "year:": "2014",
+    "Modificacion": "hoy",
+    "grafico": {
+        "fondo": "images/patron.png",
+        "footer":"images/footerbg.png",
+        "menu": "#AFC0B7",
+        "colores": {
+                "h1": "#000",
+                "h2": "#000",
+                "h3": "#000",
+                "h4": "#000",
+                "p": "#7f7f7f",
+                "listas": "#000",
+                "tablas": "#000"
+         }
+        
+    },
+    "menu": {
+        "tipo": "scroll",
+        "color_link": "#000",
+        "shadow_link": "#fff",
+        "hover_link": "red",
+        "borde1_link": "#000",
+        "borde2_link": "#000",
+        "color_bk": "#000"
+
+    },
+    "links": {
+        "paginas": [
+            {
+                "id": "pagina1",
+                "nombre": "unidad1",
+                "tipo": "scroll",
+                "links": [
+                    {
+                        "titulo": "bienvenida",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "estructura",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "Metodología",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "plan de trabajo",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "evaluación",
+                        "url": "index.html"
+                    }
+
+                ]
+            },
+            {
+                "id": "pagina2",
+                "nombre": "unidad1",
+                "tipo": "scroll",
+                "links": [
+                    {
+                        "titulo": "unidad2",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "unidad2",
+                        "url": "index.html"
+                    },
+                    {
+                        "titulo": "unidad2",
+                        "url": "index.html"
+                    }
+                ]
+            }
+        ]
+    },
+    "baners": {
+        "items": [
+            {
+                "id": "pagina1",
+                "ruta": "images/bannergeneralidades.jpg"
+            },
+            {
+                "id": "pagina2",
+                "ruta": "images/baneru1.jpg"
+            }
+        ]
+    },
+    "bloques": {
+        "bloques_pagina": [
+            {
+                "id":"pagina1",
+                "bloque": [
+                    {
+                        "vista": "video",
+                        "titulo": "video de bienvenida",
+                        "contenido":{
+                                "width":"540px",
+                                "height":"420px",
+                                "id":"videoIntro",
+                                "sourcemp4":"video/video.mp4",
+                                "sourceogv":"video/video.ogv",
+                                "sourcewebm":"video/video.webm"
+                        }
+
+
+                    },
+
+                    {
+                        "vista": "titulo_img",
+                        "titulo": "estructura temática",
+                        "contenido":{
+                                 "img":"images/grafica1g.png",
+                                 "url_abrir":"mapa.html",
+                                 "contenido":"hola esto es un texto"
+                        }
+                    },
+
+                    {
+                        "vista": "lista1",
+                        "titulo": "metodología",
+                        "listas":[
+                            {"cont":"sdsEstudio personal: en el cual el estudiante realiza un acercamiento teórico a los contenidos del curso, al mismo tiempo que reflexiona en torno a la importancia del mismo y la manera de aplicarlo en el contexto real."},
+                            {"cont":"Actividades de exposición-discusión, foro y estudio de caso (artículo sobre diseños epidemiológicos aplicados al cáncer): el docente hace una presentación dirigida al grupo con propósitos instruccionales y de interacción: estudiantes entre sí/estudiantes-docente, con el fin de analizar, explorar y debatir una idea tópico o problema y plantear las soluciones adecuadas."}
+                        ],
+                        "listas2":[
+                            {"cont":"Estudio personal: en el cual el estudiante realiza un acercamiento teórico a los contenidos del curso, al mismo tiempo que reflexiona en torno a la importancia del mismo y la manera de aplicarlo en el contexto real."},
+                            {"cont":"Actividades de exposición-discusión, foro y estudio de caso (artículo sobre diseños epidemiológicos aplicados al cáncer): el docente hace una presentación dirigida al grupo con propósitos instruccionales y de interacción: estudiantes entre sí/estudiantes-docente, con el fin de analizar, explorar y debatir una idea tópico o problema y plantear las soluciones adecuadas."}
+                        ],
+                        "contenido":{
+                                 "p1":"El proceso de trabajo de este curso se plantea a partir de las siguientes actividades de aprendizaje:",
+                                 "p2":"Para facilitar su proceso de aprendizaje en cada unidad de trabajo del curso, es importante que atienda la siguiente secuencia de acciones:"
+                                 
+                        }
+                    },
+
+
+                    {
+                        "vista": "plan_trabajo",
+                        "titulo": "Plan de trabajo",
+                        "fila1":[
+                            {"cont":"Introducción y generalidades sobre Epidemiología del Cáncer"},
+                            {"cont":"1-2"},
+                            {"cont":" 1)  Estudio personal. <br><br> 2)  Videoconferencia.<br><br>  3)  Foro temático."},
+                            {"cont":"Dispuestos según requerimientos temáticos de la unidad."}
+                        ],
+                        "fila2":[
+                            {"cont":"Algunos diseños epidemiológicos específicos sobre cáncer"},
+                            {"cont":"3,4"},
+                            {"cont":" 1)  Estudio personal. <br><br>2)  Videoconferencia. <br><br> 3) Trabajo en grupo estudio de artículo científico.<br><br>  4)  Examen."},
+                            {"cont":" Dispuestos según requerimientos temáticos de la unidad."}
+                        ],
+                        "contenido":{
+                                 "img":"images/grafica1g.png",
+                                 "url_abrir":"mapa.html",
+                                 "contenido":"hola esto es un texto"
+                        }
+                    },
+
+                    {
+                        "vista": "evaluacion",
+                        "titulo": "evaluación",
+                        "lista": [
+                             {"cont":"<h3>Cualitativo</h3><p>Introducción y generalidades sobre Epidemiología del Cáncer</p>"},
+                             {"cont":"<h3>Cualitativsdfso</h3><p>Introducción y generalidades sobre Epidemiología del Cáncer</p>"},
+                             {"cont":"<h3>Cuantitativo</h3><p>La calificación se otorgará por la presentación de actividades asignadas como guías de trabajo, trabajo práctico, presentación de tareas y la intervención en los foros.</p><hr>"}
+
+                        ],
+                        "contenido":{
+                                 "p1":"Su desempeño en las diferentes actividades será evaluado a partir del seguimiento que se hace a todos los procesos en cada una de las situaciones de aprendizaje.<br><br>Dicho seguimiento es:",
+                                 "p2":"De igual manera, usted podrá autoevaluarse durante el proceso de acuerdo con los indicadores de evaluación establecidos. Revíselos con detenimiento antes de iniciar el curso y dispóngase a trabajar para alcanzar el mejor nivel de desempeño, es decir, el A.La valoración final será el resultado de la integración de las diferentes actividades de aprendizaje y evaluación propuestas para cada unidad de trabajo.La valoración se realizará de acuerdo con la siguiente tabla y considerando los criterios de evaluación mencionados anteriormente:"
+                        }
+                    },
+
+                    {
+                        "vista": "tabla_evalu",
+                        "fila": [
+                             {"cont":"<td>Introducción y generalidades sobre Epidemiología del Cáncer</td>"},
+                             {"cont":"<td>Participar activamente en el foro.</td>"},
+                             {"cont":"<td>30%</td>"}
+                        ],
+
+                        "fila2": [
+                             {"cont":"<td rowspan='2'>Algunos diseños epidemiológicos específicos sobre cáncer.</td>"},
+                             {"cont":"  <td >Participar activamente en los estudios de caso grupales (análisis de artículo).</td> "},
+                             {"cont":"  <td >35%</td> "}
+                        ],
+
+                        "fila3": [
+                             {"cont":" <td >Evaluación sumativa individual.</td>"},
+                             {"cont":"  <td >35%</td> "}
+                        ]
+                    }
+
+                ]
+                
+            },
+
+            {
+                "id":"pagina2",
+                "bloque": [
+                    {
+                        "vista": "parrafo",
+                        "titulo": "estructura",
+                        "contenido":{
+                                 "p1":"Su desempeño en las diferentes actividades será evaluado a partir del seguimiento que se hace a todos los procesos en cada una de las situaciones de aprendizaje.<br><br>Dicho seguimiento es:"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+
+
+    
+
+
+}

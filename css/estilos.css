@@ -1,0 +1,156 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*fin reset*/
+body{background:url(../images/bg2.png);}
+
+.portada{
+	width:1000px;
+	height:750px;
+	margin:0px auto;
+	background: url(../images/portada.jpg) no-repeat top center;
+	position:relative;
+	border:4px solid rgba(255,255,255,0.6);
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	}
+
+.sanAgustin{position:absolute; left:205px; top:390px;}
+.piramide{position:absolute; left:364px; top:146px;}
+.cosmovision{position:absolute; left:27px; top:146px;}
+.maleta{position:absolute; left:556px; top:466px;}
+
+
+.sanAgustin .sobre, .sanAgustin .fuera {position:absolute; left:0; top:0;}
+.piramide .sobre, .piramide .fuera {position:absolute; left:0; top:0;}
+.cosmovision .sobre, .cosmovision .fuera {position:absolute; left:0; top:0;}
+.maleta .sobre, .maleta .fuera{position:absolute; left:0; top:0;}
+
+
+.piramide a{position:absolute; left:0; top:0; display:block; width:315px; height:399px; z-index:10; }
+.maleta a{position:absolute; left:0; top:0; display:block; width:162px; height:135px; z-index:10;}
+.sanAgustin a{position:absolute; left:0; top:0; display:block; width:160px; height:186px; z-index:10; }
+.cosmovision a{position:absolute; left:0; top:0; display:block; width:299px; height:244px; z-index:10;}
+
+
+.sanAgustin span, .piramide span, .maleta span, .cosmovision span, .tooltip{ 
+-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;}
+
+
+.sanAgustin .sobre{opacity:0;}
+.sanAgustin:hover .sobre, .sanAgustin:hover .tooltip{opacity:1; cursor:pointer;}
+.sanAgustin a .tooltip{position:absolute; top:-30px; left:50%; margin-left:-120px; width:200px; z-index:10000; opacity:0;}
+
+
+.piramide .sobre{opacity:0;}
+.piramide:hover .sobre, .piramide:hover .tooltip{opacity:1; cursor:pointer;}
+.piramide a .tooltip{position:absolute; top:0px; left:50%; margin-left:-120px; width:200px; z-index:10000; opacity:0;}
+
+
+.maleta .sobre{opacity:0;}
+.maleta:hover .sobre, .maleta:hover .tooltip{opacity:1; cursor:pointer;}
+.maleta a .tooltip{position:absolute; top:-30px; left:50%; margin-left:-120px; width:200px; z-index:10000; opacity:0;}
+
+
+.cosmovision .sobre{opacity:0;}
+.cosmovision:hover .sobre, .cosmovision:hover .tooltip {opacity:1; cursor:pointer;}
+.cosmovision a .tooltip{position:absolute; top:-30px; left:50%; margin-left:-120px; width:200px; z-index:10000; opacity:0;}
+
+/*estilos tool-tip*/
+.tooltip, .arrow:after {
+    background: #FF9B19;
+    border: 2px solid white;
+	
+	z-index:1000;
+  }
+  .tooltip {
+	text-align:center;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
