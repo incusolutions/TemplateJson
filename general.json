@@ -207,6 +207,14 @@
                              {"cont":" <td >Evaluación sumativa individual.</td>"},
                              {"cont":"  <td >35%</td> "}
                         ]
+                    },
+
+                    {
+                        "vista": "indicadoresc",
+                        "tabla":[
+                            {"cont":"<tr><td width='541'>INDICADORES DE COMPETENCIA</td></tr>"},
+                            {"cont":"<tr><td>Identifica los aspectos más relevantes relacionados con  el comportamiento epidemiológico del cáncer a partir de la lectura crítica de algunos de los artículos clásicos en epidemiología.</td></tr>"}
+                        ]
                     }
 
                 ]
