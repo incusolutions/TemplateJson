@@ -86,10 +86,6 @@
                      {
                         "titulo": "actividad 4",
                         "url": "#"
-                    },
-                      {
-                        "titulo": "si hizo merge?",
-                        "url": "#"
                     }
                 ]
             }
@@ -220,11 +216,26 @@
             {
                 "id":"unidad1",
                 "bloque": [
+                    
+                    {
+                        "vista": "presentacion",
+                        "titulo": "presentación",
+                        "contenido":
+                            {
+                                "src":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150143018&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"
+                            }
+                    }
+                ]
+            },
+
+            {
+                "id":"unidad2",
+                "bloque": [
                     {
                         "vista": "parrafo",
                         "titulo": "estructura",
                         "contenido":{
-                                 "p1":"Su desempeño en las diferentes actividades será evaluado a partir del seguimiento que se hace a todos los procesos en cada una de las situaciones de aprendizaje.<br><br>Dicho seguimiento es:"
+                        "p1":"Su desempeño en las diferentes actividades será evaluado a partir del seguimiento que se hace a todos los procesos en cada una de las situaciones de aprendizaje.<br><br>Dicho seguimiento es:"
                         }
                     }
                 ]
