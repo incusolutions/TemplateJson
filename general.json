@@ -213,8 +213,14 @@
                         "vista": "indicadoresc",
                         "tabla":[
                             {"cont":"<tr><td width='541'>INDICADORES DE COMPETENCIA</td></tr>"},
-                            {"cont":"<tr><td>Identifica los aspectos más relevantes relacionados con  el comportamiento epidemiológico del cáncer a partir de la lectura crítica de algunos de los artículos clásicos en epidemiología.</td></tr>"}
+                            {"cont":"<tr><td>Identifica los aspectos más relevantes relacionados con  el comportamiento epidemiológico del cáncer a partir de la lectura crítica de algunos de los artículos clásicos en epidemiología.</td></tr>"},
+                            {"cont":"<tr><td> Reconoce los principales estudios y metodologías sobre registros poblacionales para estudiar el cáncer.</td></tr>"},
+                            {"cont":"<tr><td>Aplica conocimientos para la vigilancia en salud pública del cáncer de acuerdo con el protocolo establecido de vigilancia en salud pública en Colombia.</td></tr>"},
+                            {"cont":"<tr><td>Reconoce los aspectos más relevantes que se deben tener en cuenta para diseñar un estudio transversal aplicado al tema del cáncer.</td></tr>"},
+                            {"cont":"<tr><td>Reconoce los aspectos más relevantes que se deben tener en cuenta para diseñar un estudio de casos y controles aplicado al tema del cáncer.</td></tr>"},
+                            {"cont":"<tr><td>Reconoce los aspectos más relevantes que se deben tener en cuenta para diseñar un estudio de cohortes aplicado al tema del cáncer.</td></tr>"}
                         ]
+
                     }
 
                 ]
